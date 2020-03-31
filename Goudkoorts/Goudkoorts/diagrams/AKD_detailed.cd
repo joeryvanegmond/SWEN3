@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="View">
+    <Position X="0.991" Y="0.5" Height="0.291" Width="1.024" />
+  </Comment>
+  <Comment CommentText="Controller">
+    <Position X="5.017" Y="0.5" Height="0.291" Width="1.012" />
+  </Comment>
+  <Comment CommentText="Model">
+    <Position X="8.415" Y="0.5" Height="0.291" Width="1.024" />
+  </Comment>
+  <Class Name="Goudkoorts.Controller">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="Controller" Hidden="true" />
+      <Field Name="Easy" Hidden="true" />
+      <Field Name="Hard" Hidden="true" />
+      <Field Name="Medium" Hidden="true" />
+      <Method Name="PrintGame" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="inputView" Type="Goudkoorts.InputView" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="1.75" />
+        <Point X="3.625" Y="1.75" />
+        <Point X="3.625" Y="1.75" />
+        <Point X="2.5" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="outputView" Type="Goudkoorts.OutputView" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="2.312" />
+        <Point X="3.966" Y="2.312" />
+        <Point X="3.966" Y="4.938" />
+        <Point X="2.25" Y="4.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CQQAAAAAACAAAAAAAAAAAAACEAAAAAQAAAEAAAgkAgA=</HashCode>
+      <FileName>controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="warehouse" />
+      <Field Name="inputView" />
+      <Field Name="outputView" />
+      <Field Name="TimeCounter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Goudkoorts.Program">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>controller\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.Warehouse">
+    <Position X="8" Y="1" Width="1.75" />
+    <Members>
+      <Field Name="_controller" Hidden="true" />
+      <Field Name="_field" Hidden="true" />
+      <Field Name="_previousrail" Hidden="true" />
+      <Field Name="_rail" Hidden="true" />
+      <Field Name="_x" Hidden="true" />
+      <Field Name="_y" Hidden="true" />
+      <Field Name="A" Hidden="true" />
+      <Field Name="B" Hidden="true" />
+      <Field Name="C" Hidden="true" />
+      <Method Name="CreateListOfAllSpots" Hidden="true" />
+      <Field Name="loadingShip" Hidden="true" />
+      <Field Name="MooringPlace" Hidden="true" />
+      <Method Name="MoveVehicles" Hidden="true" />
+      <Method Name="PathFromAToS1" Hidden="true" />
+      <Method Name="PathFromBToS1" Hidden="true" />
+      <Method Name="PathFromCTOS3" Hidden="true" />
+      <Method Name="PathFromS1ToS2" Hidden="true" />
+      <Method Name="PathFromS2ToS3" Hidden="true" />
+      <Method Name="PathFromS2TOS5" Hidden="true" />
+      <Method Name="PathFromS3ToS4" Hidden="true" />
+      <Method Name="PathFromS4ToS5" Hidden="true" />
+      <Method Name="PathFromS4ToStorage" Hidden="true" />
+      <Method Name="RailFromS5ToQuay" Hidden="true" />
+      <Field Name="s1" Hidden="true" />
+      <Field Name="s2" Hidden="true" />
+      <Field Name="s3" Hidden="true" />
+      <Field Name="s4" Hidden="true" />
+      <Field Name="s5" Hidden="true" />
+      <Method Name="Sea" Hidden="true" />
+      <Field Name="selectedSwitch" Hidden="true" />
+      <Field Name="ship" Hidden="true" />
+      <Field Name="spots" Hidden="true" />
+      <Method Name="StraightRailSetter" Hidden="true" />
+      <Method Name="Warehouse" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>eAAAAAAIAAQJBQgAIQAgAwAEgADACACEyEACoEWAsgA=</HashCode>
+      <FileName>model\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.InputView">
+    <Position X="0.5" Y="1" Width="2" />
+    <Members>
+      <Method Name="InputView" Hidden="true" />
+      <Method Name="Start" Hidden="true" />
+      <Method Name="Stop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAwABAAAAAAgAAAAAIAIAAEAAAAA=</HashCode>
+      <FileName>view\InputView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.OutputView">
+    <Position X="0.5" Y="4" Width="1.75" />
+    <Members>
+      <Field Name="_x" Hidden="true" />
+      <Field Name="_y" Hidden="true" />
+      <Field Name="field" Hidden="true" />
+      <Method Name="OutputView" Hidden="true" />
+      <Method Name="PrintSea" Hidden="true" />
+      <Method Name="UpdateWareHouse" Hidden="true" />
+      <Field Name="warehouse" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AUCQAAkIAAQAAQAAAAAAAAAAAAAAAAAAAEAAAAgBAAA=</HashCode>
+      <FileName>view\OutputView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.controller.TimeCounter">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="_controller" Hidden="true" />
+      <Field Name="_sleeptime" Hidden="true" />
+      <Field Name="_timer" Hidden="true" />
+      <Method Name="Start" Hidden="true" />
+      <Method Name="Stop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAEAAIAAAAAAAAAAAAAAIAACAEAAAQA=</HashCode>
+      <FileName>controller\TimeCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

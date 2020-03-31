@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="View">
+    <Position X="0.5" Y="0.594" Height="0.302" Width="1.024" />
+  </Comment>
+  <Comment CommentText="Controller">
+    <Position X="0.5" Y="2.337" Height="0.291" Width="1.012" />
+  </Comment>
+  <Comment CommentText="Model">
+    <Position X="0.5" Y="4.086" Height="0.291" Width="1.024" />
+  </Comment>
+  <Class Name="Goudkoorts.Controller" Collapsed="true">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <AssociationLine Name="inputView" Type="Goudkoorts.InputView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.974" Y="2.25" />
+        <Point X="4.974" Y="0.875" />
+        <Point X="3.25" Y="0.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="outputView" Type="Goudkoorts.OutputView" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.511" Y="2.25" />
+        <Point X="5.511" Y="0.875" />
+        <Point X="6.5" Y="0.875" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CQQAAAAAACAAAAAAAAAAAAACEAAAAAQAAAEAAAgkAgA=</HashCode>
+      <FileName>controller\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="warehouse" />
+      <Field Name="inputView" />
+      <Field Name="outputView" />
+      <Field Name="TimeCounter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Goudkoorts.Program" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>controller\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.Warehouse" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eAAAAAAIAAQJBQgAIQAgAwAEgADACACEyEACoEWAsgA=</HashCode>
+      <FileName>model\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.InputView" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAwABAAAAAAgAAAAAIAIAAEAAAAA=</HashCode>
+      <FileName>view\InputView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.OutputView" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUCQAAkIAAQAAQAAAAAAAAAAAAAAAAAAAEAAAAgBAAA=</HashCode>
+      <FileName>view\OutputView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goudkoorts.controller.TimeCounter" Collapsed="true">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAEAAIAAAAAAAAAAAAAAIAACAEAAAQA=</HashCode>
+      <FileName>controller\TimeCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Goudkoorts.SwitchState" Collapsed="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAgAAEAAAAAA=</HashCode>
+      <FileName>model\SwitchRail.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

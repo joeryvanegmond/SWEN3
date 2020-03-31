@@ -1,0 +1,12 @@
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.exe.config
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.exe
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.pdb
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.exe
+\\Mac\Home\Documents\Avans\leerjaar 2\BLOK 5\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.pdb
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.exe.config
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.exe
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\bin\Debug\Goudkoorts.pdb
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.csprojAssemblyReference.cache
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.exe
+C:\Users\joery\Documents\Avans\MODL3\Goudkoorts\Goudkoorts\obj\Debug\Goudkoorts.pdb
